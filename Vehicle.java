@@ -1,6 +1,15 @@
 public class Vehicle{
 	public static void main(String[]args) {
-		PetrolEngine pE = PetrolEngine();
+		PetrolEngine pE = new PetrolEngine();
 		pE.start();
+		
+		DiselEngine dE = new DiselEngine();
+		dE.start();
+		
+		ElectricEngine eE = new ElectricEngine();
+		eE.start();
+		
+		HydrogenEngine hE = new HydrogenEngine();
+		hE.start();
 	}
 }
